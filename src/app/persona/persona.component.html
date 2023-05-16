@@ -1,0 +1,10 @@
+<p>
+  Nombre: {{ getNombre() }} Apellido: {{ getApellido() }} Edad:
+  {{ getEdad() + 1 }}
+</p>
+<!-- evento para liberar cualquier tecla -->
+<div (keyup)="(0)">
+  <label for="">repetidor: </label>
+  <input #entrada />
+  {{ entrada.value }}
+</div>
