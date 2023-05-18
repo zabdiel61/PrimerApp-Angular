@@ -11,6 +11,8 @@ export class PersonaComponent  {
   private apellido:string = 'Hernandez'
   private edad:number = 28;
 
+  constructor(){}
+
   getNombre():string{
     return this.nombre;
   }
